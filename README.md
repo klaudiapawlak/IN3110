@@ -1,5 +1,20 @@
 # IN3110-klaudiap
 
+## Problem Solving with High-Level Languages
+
+>This course provides an introduction to more advanced aspects of the scripting and programming language Python, e.g. object-oriented programming, regular expressions, interaction with the operating system, platform-independent code, efficient design of program systems with time-critical operations, extensions in compiled languages such as C/C++, data analysis and web programming. The course also provides a basic introduction to the scripting language Bash, testing and documentation of code, and version control system git. Special emphasis is placed on practical problem solving with a focus on interesting and study-relevant tasks.
+
+After taking this course you'll:
+- Have knowledge of more advanced aspects of the Python programming language, including the use of regular expressions and interaction with the operating system
+- Be able to write scripts in Python and Bash to automate your own work tasks
+- Have knowledge of the version control system git and how code can be documented and tested
+- Be able to use vectorization to write efficient programs in Python
+- Be able to combine Python with compiled programming languages such as C and C++
+- Be able to write a web user interface for Python programs
+- Be able to use Python tools for advanced data analysis and machine learning
+- Be able to write programs that solve problems from different disciplines, such as physics, medicine, biology and finance
+
+
 ## Table of contents
 
 * [assignment1](#assignment1)
