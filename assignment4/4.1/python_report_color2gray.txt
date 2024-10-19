@@ -1,0 +1,17 @@
+Runtime : python_color2gray
+
+-----------------------------------------------------------------------------------------------
+
+Image with size 600px x 400px:
+
+Average runtime running python_color2gray after 3 runs : 1.17089 s
+
+-----------------------------------------------------------------------------------------------
+
+Image with size 3840px x 2160px:
+
+Average runtime running python_color2gray after 3 runs : 44.79591 s.
+
+-----------------------------------------------------------------------------------------------
+
+Timing performed using : time.time

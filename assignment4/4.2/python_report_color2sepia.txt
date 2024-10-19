@@ -1,0 +1,17 @@
+Runtime : python_color2sepia
+
+-----------------------------------------------------------------------------------------------
+
+Image with size 600px x 400px:
+
+Average runtime running python_color2sepia after 3 runs : 0.14946 s.
+
+-----------------------------------------------------------------------------------------------
+
+Image with size 3840px x 2160px:
+
+Average runtime running python_color2sepia after 3 runs :  140.77454 s.
+
+-----------------------------------------------------------------------------------------------
+
+Timing performed using : time.time

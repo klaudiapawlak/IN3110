@@ -1,0 +1,31 @@
+Runtime : numba_color2sepia
+
+-----------------------------------------------------------------------------------------------
+
+Image with size 600px x 400px:
+
+Average runtime running python_color2sepia after 3 runs : 0.14946 s.
+Average runtime running numpy_color2sepia after 3 runs : 0.00199 s.
+Average runtime running numba_color2sepia after 3 runs : 0.33677 s.
+Average runtime for running numba_color2sepia is 2,2532 times slower than python_color2sepia.
+Average runtime for running numba_color2sepia is 169,23115 times slower than numpy_color2sepia.
+
+-----------------------------------------------------------------------------------------------
+
+Image with size 3840px x 2160px:
+
+Average runtime running python_color2sepia after 3 runs :  140.77454 s.
+Average runtime running numpy_color2sepia after 3 runs : 1.15653 s.
+Average runtime running numba_color2sepia after 3 runs : 0.43426 s.
+Average runtime for running numba_color2sepia is 324,17109 times faster than python_color2sepia.
+Average runtime for running numba_color2sepia is 2,66322 times faster than numpy_color2sepia.
+
+-----------------------------------------------------------------------------------------------
+
+When it comes to the small images numpy is a fastest possible option. This is due to long import 
+and build times for numba implementation. Numba will always take some "constant" time to import 
+itself and compile. Numba is the fastest option for the bigger pictures. 
+
+-----------------------------------------------------------------------------------------------
+
+Timing performed using : time.time

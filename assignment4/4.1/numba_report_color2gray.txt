@@ -1,0 +1,31 @@
+Runtime : numba_color2gray.py
+
+-----------------------------------------------------------------------------------------------
+
+Image with size 600px x 400px:
+
+Average runtime running python_color2gray after 3 runs : 1.17089 s.
+Average runtime running numpy_color2gray after 3 runs : 0.01658 s.
+Average runtime running numba_color2gray after 3 runs : 0.26868 s.
+Average runtime for running numba_color2gray is 4.35793 times faster than python_color2gray.py.
+Average runtime for running numba_color2gray is 14.39565 times slower than numpy_color2gray.py.
+
+-----------------------------------------------------------------------------------------------
+
+Image with size 3840px x 2160px:
+
+Average runtime running python_color2gray after 3 runs : 44.79591 s.
+Average runtime running numpy_color2gray after 3 runs : 1.08276 s.
+Average runtime running numba_color2gray after 3 runs : 0.31849 s.
+Average runtime for running numba_color2gray is 140,65091 times faster than python_color2gray.py.
+Average runtime for running numba_color2gray is 3,39966 times faster than numpy_color2gray.py.
+
+-----------------------------------------------------------------------------------------------
+
+When it comes to the small images numpy is a fastest possible option. This is due to long import 
+and build times for numba implementation. Numba will always take some "constant" time to import 
+itself and compile. Numba is the fastest option for the bigger pictures. 
+
+-----------------------------------------------------------------------------------------------
+
+Timing performed using : time.time
