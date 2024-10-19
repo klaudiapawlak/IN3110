@@ -1,0 +1,70 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Help Page &#8212; Web visualization x documentation</title>
+  </head>
+
+<body>
+
+
+<div class="section" id="module-webvisualization">
+<span id="help-page"><h1>Help Page</h1>
+<br>
+
+<p>Make FastApi of Altair chart over the number of new
+COVID-19 cases per million in different countries.</p>
+<br>
+
+<dl class="function">
+<dt id="webvisualization.plot_reported_cases_per_million_html">
+<code class="descclassname">webvisualization.</code><code class="descname">plot_reported_cases_per_million_html</code><span class="sig-paren">(</span><em>request: starlette.requests.Request</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/webvisualization.html#plot_reported_cases_per_million_html"><span class="viewcode-link"></a></a></dt>
+<dd><p>Root route for the web application.
+Handle requests that go to the path “/”.</p>
+</dd></dl>
+<br>
+
+<dl class="function">
+<dt id="webvisualization.plot_reported_cases_per_million_json">
+<code class="descclassname">webvisualization.</code><code class="descname">plot_reported_cases_per_million_json</code><span class="sig-paren">(</span><em>countries: Union[str</em>, <em>NoneType] = None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/webvisualization.html#plot_reported_cases_per_million_json"><span class="viewcode-link"></a></a></dt>
+<dd><p>Return dict of json chart from altair</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>countries (list of strings), optional: Countries that you want to include in the altair chart.</dd>
+<dt>Returns:</dt>
+<dd>dictionary of reported cases per million.</dd>
+</dl>
+</dd></dl>
+<br>
+
+<dl class="function">
+<dt id="webvisualization.help">
+<code class="descclassname">webvisualization.</code><code class="descname">help</code><span class="sig-paren">(</span><em>request: starlette.requests.Request</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/webvisualization.html#help"><span class="viewcode-link"></a></a></dt>
+<dd><p>Help page that gives information about the different functions</p>
+</dd></dl>
+<br>
+
+</div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+</div>
+
+    <div class="footer">
+      &copy;2021, inber.
+
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+
+    </div>
+
+
+
+
+  </body>
+</html>
